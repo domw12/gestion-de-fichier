@@ -1,0 +1,48 @@
+
+  /* Reset des styles par défaut */
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu {
+    background-color: rgb(20, 6, 1); /* Couleur de fond noire */
+  }
+  
+  .menu ul {
+    list-style: none; /* Supprime les puces des listes */
+  }
+  
+  .menu ul li {
+    display: inline; /* Affichage en ligne pour les éléments de liste */
+  }
+  
+  .menu ul li a {
+    display: inline-block;
+    padding: 40px 40px; /* Espacement du texte */
+    color: white; /* Couleur du texte */
+    text-decoration: none; /* Supprime le soulignement des liens */
+  }
+  
+  .img{
+    width: 1410px;
+    height: 600px;
+  }
+
+ 
+  
+  
+  
+  .bouton {
+    position: absolute; /* Positionnement absolu par rapport au corps de la page */
+    top: 50%; /* Place le haut du bouton au centre vertical de l'image */
+    left: 70%; /* Place la gauche du bouton au centre horizontal de l'image */
+    transform: translate(-50%, -50%); /* Centre précisément le bouton sur l'image */
+    padding: 30px 40px; /* Ajustez le rembourrage selon vos besoins */
+    background-color: blue; /* Couleur de fond du bouton */
+    color: aliceblue; /* Couleur du texte du bouton */
+    text-decoration: none; /* Supprime le soulignement par défaut sur le lien */
+    border: 1px solid #000000; /* Bordure du bouton */
+    border-radius: 5px; /* Ajoute des coins arrondis au bouton */
+  }
+  
